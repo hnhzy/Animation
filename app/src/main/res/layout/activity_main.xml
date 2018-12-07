@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="帧动画"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_tween"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="补间动画"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_frame"/>
+
+    <Button
+        android:id="@+id/btn_property"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="属性动画"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_tween"/>
+
+
+</android.support.constraint.ConstraintLayout>

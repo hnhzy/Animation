@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AnimationDeom</string>
+    <string name="title_activity_frame_animation">FrameAnimationActivity</string>
+    <string name="title_activity_tween_animation">TweenAnimationActivity</string>
+    <string name="title_activity_property_animation">PropertyAnimationActivity</string>
+</resources>
